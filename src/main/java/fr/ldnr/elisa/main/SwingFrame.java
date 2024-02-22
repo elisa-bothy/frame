@@ -43,7 +43,13 @@ public class SwingFrame {
         vbox.add(jb3);
         vbox.add(jb4);
         vbox.add(jb5);
-        frame.setSize(250, 150);
+        
+        //laisser la fenêtre s'autodimentionner par rapport au contenu
+        frame.pack();
+        //centrer fenêtre
+        frame.setLocationRelativeTo(null);
+        
+        //fermer la fenêtre quand on ferme avec la croix
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setVisible(true);
     }
