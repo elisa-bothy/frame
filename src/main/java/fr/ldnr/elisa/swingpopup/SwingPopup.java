@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package fr.ldnr.elisa.main;
+package fr.ldnr.elisa.swingpopup;
 
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
